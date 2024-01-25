@@ -4,8 +4,8 @@
 using namespace std;
 int main(){
     map<string,int> directory;
-    directory["harsh"]=97736;
-    directory["harsh"]=97736;
+    directory["hunny"]=97736;
+    directory["hunny"]=97736;
     
     for(auto element:directory){
         cout<<"Name"<<element.first<<endl;

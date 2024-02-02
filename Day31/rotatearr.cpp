@@ -3,7 +3,7 @@
 using namespace std;
 
 void fun(vector <int> v,int n){
-    int temp=v[0];
+    int temp[]=v[0];
     for(int i=0; i<n; i++){
         v[i]=v[i+1];
     }

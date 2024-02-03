@@ -1,3 +1,4 @@
+//rotate array by D places
 #include <iostream>
 using namespace std;
 

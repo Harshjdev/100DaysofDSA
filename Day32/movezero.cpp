@@ -10,8 +10,7 @@ void movezero(int arr[],int n){
         if(arr[i]==0){
             temp[n-1-i]=arr[i];
             
-        }
-        
+        }   
     }
     //move non zero element to the begin of temp
     for( int i=0; i<n; i++){
@@ -25,8 +24,6 @@ void movezero(int arr[],int n){
     }
     
 }
-
-
 int main(){
      int arr[] = {1, 2, 0, 3, 0, 5};
     int n = sizeof(arr) / sizeof(arr[0]);

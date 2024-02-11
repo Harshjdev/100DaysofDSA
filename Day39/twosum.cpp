@@ -1,21 +1,24 @@
-#include <bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
-string twoSum(int n, vector<int> &arr, int target) {
-    for (int i = 0; i < n; i++) {
-        for (int j = i + 1; j < n; j++) {
-            if (arr[i] + arr[j] == target) return "YES";
+string twosum(int n, int arr[], int d) {
+    for(int i = 0; i < n; i++) {
+        for(int j = i + 1; j < n; j++) {
+            if(arr[i] + arr[j] == d) {
+               
+                cout<<arr[i] << arr[j] << endl;
+                 return "yes";
+                
+            }
         }
     }
-    return "NO";
+    return "no";
 }
 
-int main()
-{
-    int n = 5;
-    vector<int> arr = {2, 6, 5, 8, 11};
-    int target = 14;
-    string ans = twoSum(n, arr, target);
-    cout << "This is the answer for variant 1: " << ans << endl;
+int main() {
+    int arr[] = {1, 2, 3, 4, 5};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int d = 3;
+    cout << twosum(n, arr, d);
     return 0;
 }

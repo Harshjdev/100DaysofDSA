@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include<vectoer
+#include<vector
 using namespace std;
 
 int findAllSubarraysWithGivenSum(vector < int > & arr, int k) {
